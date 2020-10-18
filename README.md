@@ -6,7 +6,7 @@
 
 ## Summary
 
-Deploys a Lambda function with `iam:CreateAcountAlias` permissions. 
+Deploys a Lambda function with `iam:CreateAccountAlias` permissions.
 This function is idempotent so can be re-run with the same input.
 
 ### Payload
