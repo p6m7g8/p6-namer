@@ -5,7 +5,14 @@ const project = new AwsCdkConstructLibrary({
   authorName: "Philip M. Gollucci",
   cdkVersion: "1.60.0",
   name: "p6-namer",
-  repository: "https://github.com/p6m7g8/p6-namer.git"
+  repository: "https://github.com/p6m7g8/p6-namer.git",
+
+  cdkDependencies: [
+    '@aws-cdk/core',
+    '@aws-cdk/custom-resources',
+    '@aws-cdk/aws-iam',
+    '@aws-cdk/aws-lambda'
+  ],
 });
 
 project.synth();
