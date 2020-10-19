@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.0.5 (2020-10-19)
+
+
+### Bug Fixes
+
+* **demo:** sets a quicky change for demo ([#5](https://github.com/p6m7g8/p6-namer/issues/5)) ([5f77c81](https://github.com/p6m7g8/p6-namer/commit/5f77c81723f6cad1464762b47cc703b29c540cc9))
+
 ### 0.0.4 (2020-10-19)
 
 ### 0.0.3 (2020-10-18)
