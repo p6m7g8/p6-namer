@@ -1,9 +1,8 @@
-"""AWS Custom Resource Lambda set the IAM Account Alias
-
-T-Rex SMILE™
+"""AWS Custom Resource Lambda to set the IAM Account Alias
 """
 import logging
 import boto3
+import crhelper
 
 log = logging.getLogger()
 log.setLevel(logging.INFO)
@@ -13,30 +12,29 @@ log.info(
 )
 
 iam = boto3.client('iam')
+helper = crhelper.CfnResource()
 
 
-def iam_account_alias_create(event):
+@helper.create
+@helper.update
+def iam_account_alias_create(event, context):
     """Set the IAM Account Alias"""
-    log.info(event)
-    alias = event['AccountAlias']
+    alias = event['ResourceProperties']['AccountAlias']
 
     iam.create_account_alias(
         AccountAlias=alias
     )
 
-    return True
+    helper.Data['Alias'] = alias
+
+
+@helper.delete
+def iam_account_alias_delete(event, context):
+    """Delete the IAM Account Alias"""
+
+    iam.delete_account_alias()
 
 
 def handler(event, context):
     """Lambda Entry Point"""
-    return iam_account_alias_create(event)
-
-
-def main():
-    """Developer Entry Point."""
-    logging.debug("handler()")
-    handler({}, {})
-
-
-if __name__ == "__main__":
-    main()
+    helper(event, context)
