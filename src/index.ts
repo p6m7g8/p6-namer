@@ -2,17 +2,16 @@ import * as path from 'path';
 
 import * as iam from '@aws-cdk/aws-iam';
 import * as lambda from '@aws-cdk/aws-lambda';
-import { PythonFunction } from '@aws-cdk/aws-lambda-python';
 import * as cdk from '@aws-cdk/core';
 import * as cr from '@aws-cdk/custom-resources';
 
-export interface P6NamerProps extends cdk.ResourceProps {
+export interface IP6NamerProps {
   accountAlias: string;
 }
 
 export class P6Namer extends cdk.Resource {
-  constructor(scope: cdk.Construct, id: string, props: P6NamerProps) {
-    super(scope, id, props);
+  constructor(scope: cdk.Construct, id: string, props: IP6NamerProps) {
+    super(scope, id);
 
     const policy = new iam.PolicyStatement({
       actions: ['iam:CreateAccountAlias'],
@@ -20,11 +19,12 @@ export class P6Namer extends cdk.Resource {
       effect: iam.Effect.ALLOW,
     });
 
-    const onEvent = new PythonFunction(this, 'P6Namer/Lambda', {
+    const onEvent = new lambda.Function(this, 'P6Namer/Lambda', {
       runtime: lambda.Runtime.PYTHON_3_8,
       timeout: cdk.Duration.seconds(30),
       tracing: lambda.Tracing.ACTIVE,
-      entry: path.join(__dirname, '../../p6-namer/resources/lambda'),
+      handler: 'index.handler',
+      code: lambda.Code.fromAsset(path.join(__dirname, '../resources/lambda')),
     });
 
     onEvent.addToRolePolicy(policy);
