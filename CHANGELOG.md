@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.1.2 (2020-10-30)
+
+### 0.1.1 (2020-10-29)
+
+## 0.1.0 (2020-10-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* **api:** Introduces `accountAlias` via the `P6NamerProps` which is the only user tunable
+
+### Features
+
+* **api:** converts lambda to a custom resource and leverages crhelper ([#6](https://github.com/p6m7g8/p6-namer/issues/6)) ([49ff355](https://github.com/p6m7g8/p6-namer/commit/49ff35568abb4febfdeda2c576167c82e9290f89))
+
 ### 0.0.8 (2020-10-22)
 
 ### 0.0.7 (2020-10-21)
