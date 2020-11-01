@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.1.5 (2020-11-01)
+
+
+### Features
+
+* **README:** setups up badges, fixes usage ([#30](https://github.com/p6m7g8/p6-namer/issues/30)) ([2ce533c](https://github.com/p6m7g8/p6-namer/commit/2ce533ca54e7da6bf9940f986556fde6a7f9e363))
+
 ### 0.1.4 (2020-11-01)
 
 
