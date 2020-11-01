@@ -7,6 +7,8 @@ const project = new AwsCdkConstructLibrary({
   name: "p6-namer",
   repository: "https://github.com/p6m7g8/p6-namer.git",
 
+  projenUpgradeSecret: 'PROJEN_GITHUB_TOKEN',
+
   cdkDependencies: [
     '@aws-cdk/core',
     '@aws-cdk/custom-resources',
