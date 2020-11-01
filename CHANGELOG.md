@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.1.4 (2020-11-01)
+
+
+### Features
+
+* **projen:** enable auto projen upgrades ([#29](https://github.com/p6m7g8/p6-namer/issues/29)) ([23ff800](https://github.com/p6m7g8/p6-namer/commit/23ff800e4af0a2a1d91eaa1fb24214d18a89782b))
+
 ### 0.1.3 (2020-10-30)
 
 ### 0.1.2 (2020-10-30)
