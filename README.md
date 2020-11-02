@@ -1,7 +1,14 @@
+- [P6Namer](#p6namer)
+  - [Badges](#badges)
+  - [Summary](#summary)
+    - [Usage](#usage)
+  - [Author](#author)
+
 # P6Namer
 - [P6Namer](#p6namer)
+  - [Badges](#badges)
   - [Summary](#summary)
-    - [Payload](#payload)
+    - [Usage](#usage)
   - [Author](#author)
 
 ## Badges
@@ -9,6 +16,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-yellowgreen.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/p6m7g8/p6-namer)
 ![Build](https://github.com/p6m7g8/p6-namer/workflows/Build/badge.svg)
+![Release](https://github.com/p6m7g8/p6-namer/workflows/Release/badge.svg)
 
 ## Summary
 
@@ -23,8 +31,5 @@ new P6Namer.P6Namer(this, 'AccountAlias', {
 });
 ```
 ## Author
-
-Change for Demo
-
 
 Philip M. Gollucci <pgollucci@p6m7g8.com>
