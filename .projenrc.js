@@ -19,3 +19,31 @@ const project = new AwsCdkConstructLibrary({
 });
 
 project.synth();
+
+project.mergify.addRule({
+  name: 'Label core contributions',
+  actions: {
+    label: {
+      add: ['contribution/core']
+    }
+  },
+  conditions: [
+    'author~=^(pgollucci)$',
+    'label!=contribution/core'
+  ],
+});
+
+project.mergify.addRule({
+  name: 'Label auto-merge for core',
+  actions: {
+    label: {
+      add: ['auto-merge']
+    }
+  },
+  conditions: [
+    'label=contribution/core',
+    'label!=auto-merge'
+  ],
+});
+
+project.synth();
