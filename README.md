@@ -18,6 +18,9 @@
 ![Build](https://github.com/p6m7g8/p6-namer/workflows/Build/badge.svg)
 ![Release](https://github.com/p6m7g8/p6-namer/workflows/Release/badge.svg)
 
+## NPM
+[![NPM](https://nodei.co/npm/p6-namer.png)](https://npmjs.org/package/p6-namer)
+
 ## Summary
 
 Deploys a Lambda function with `iam:CreateAccountAlias` permissions.
