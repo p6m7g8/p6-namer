@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.1.20 (2020-11-08)
+
+
+### Features
+
+* **java:** enables maven publishing ([#53](https://github.com/p6m7g8/p6-namer/issues/53)) ([d9a1d5c](https://github.com/p6m7g8/p6-namer/commit/d9a1d5cbe43530c2b05dbdc3ec42c96ba640cddf))
+
 ### 0.1.19 (2020-11-08)
 
 
