@@ -1,10 +1,3 @@
-- [P6Namer](#p6namer)
-  - [Badges](#badges)
-  - [NPM](#npm)
-  - [Summary](#summary)
-    - [Usage](#usage)
-  - [Author](#author)
-
 # P6Namer
 - [P6Namer](#p6namer)
   - [Badges](#badges)
