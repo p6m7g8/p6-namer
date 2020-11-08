@@ -1,3 +1,6 @@
+AWS CDK setups up a Custom Resource via Cloud Formation which sets
+the AWS IAM Account Alias
+
 # P6Namer
 - [P6Namer](#p6namer)
   - [Badges](#badges)
@@ -21,7 +24,7 @@
 
 ## Summary
 
-Deploys a Lambda function with `iam:CreateAccountAlias` permissions.
+Deploys Custom Resource backed by a Lambda function with `iam:CreateAccountAlias` permissions.
 This function is idempotent so can be re-run with the same input.
 
 ### Usage
