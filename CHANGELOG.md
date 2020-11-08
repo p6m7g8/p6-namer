@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.1.24 (2020-11-08)
+
+
+### Features
+
+* **CoC:** setups up Code of Conduct ([#58](https://github.com/p6m7g8/p6-namer/issues/58)) ([f42c304](https://github.com/p6m7g8/p6-namer/commit/f42c3045735fcf5d2237d1106149fe4462f7777e))
+
 ### 0.1.23 (2020-11-08)
 
 ### 0.1.22 (2020-11-08)
