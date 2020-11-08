@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.1.25 (2020-11-08)
+
+
+### Bug Fixes
+
+* **projen:** pending pr from projen, bumps constructs 3.0.4 to 3.2.0 ([#59](https://github.com/p6m7g8/p6-namer/issues/59)) ([42bc5f8](https://github.com/p6m7g8/p6-namer/commit/42bc5f83ddb6771295178a0e97a0d447a6edd666))
+
 ### 0.1.24 (2020-11-08)
 
 
