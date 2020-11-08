@@ -57,7 +57,7 @@
     "@aws-cdk/aws-lambda-python": "^1.71.0",
     "@aws-cdk/core": "^1.71.0",
     "@aws-cdk/custom-resources": "^1.71.0",
-    "constructs": "^3.0.4"
+    "constructs": "^3.2.0"
   },
   "dependencies": {
     "@aws-cdk/aws-iam": "^1.71.0",

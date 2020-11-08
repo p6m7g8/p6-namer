@@ -29,7 +29,7 @@ const project = new AwsCdkConstructLibrary({
   },
 });
 
-project.synth();
+project.addPeerDeps("constructs@^3.2.0");
 
 project.mergify.addRule({
   name: 'Label core contributions',
