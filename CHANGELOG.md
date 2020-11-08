@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.1.19 (2020-11-08)
+
+
+### Features
+
+* **pypi:** enable pypi publishing ([#52](https://github.com/p6m7g8/p6-namer/issues/52)) ([9722017](https://github.com/p6m7g8/p6-namer/commit/97220177e809d27706209e43f57b717240326628))
+
 ### 0.1.18 (2020-11-08)
 
 ### 0.1.17 (2020-11-08)
