@@ -172,7 +172,12 @@
   "stability": "stable",
   "jsii": {
     "outdir": "dist",
-    "targets": {},
+    "targets": {
+      "python": {
+        "distName": "p6-namer",
+        "module": "p6-namer"
+      }
+    },
     "tsc": {
       "outDir": "lib",
       "rootDir": "src"

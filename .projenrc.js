@@ -16,6 +16,11 @@ const project = new AwsCdkConstructLibrary({
     '@aws-cdk/aws-lambda',
     '@aws-cdk/aws-lambda-python'
   ],
+
+  python: {
+    distName: 'p6-namer',
+    module: 'p6-namer'
+  },
 });
 
 project.synth();
