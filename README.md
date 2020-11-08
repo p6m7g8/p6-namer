@@ -1,7 +1,7 @@
 # P6Namer
 - [P6Namer](#p6namer)
   - [Badges](#badges)
-  - [NPM](#npm)
+  - [Distributions](#distributions)
   - [Summary](#summary)
     - [Usage](#usage)
   - [Author](#author)
@@ -13,8 +13,11 @@
 ![Build](https://github.com/p6m7g8/p6-namer/workflows/Build/badge.svg)
 ![Release](https://github.com/p6m7g8/p6-namer/workflows/Release/badge.svg)
 
-## NPM
-[![NPM](https://nodei.co/npm/p6-namer.png)](https://npmjs.org/package/p6-namer)
+## Distributions
+[![npm version](https://badge.fury.io/js/p6-namer.svg)](https://badge.fury.io/js/p6-namer)
+[![PyPI version](https://badge.fury.io/py/p6-namer.svg)](https://badge.fury.io/py/p6-namer)
+[![NuGet version](https://badge.fury.io/nu/p6-namer.svg)](https://badge.fury.io/nu/p6-namer)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/P6m7g8.P6Namer/P6Namer/badge.svg)](https://maven-badges.herokuapp.com/maven-central/P6m7g8.P6Namer/P6Namer)
 
 ## Summary
 
