@@ -19,7 +19,13 @@ const project = new AwsCdkConstructLibrary({
 
   python: {
     distName: 'p6-namer',
-    module: 'p6-namer'
+    module: 'p6_namer',
+  },
+
+  java: {
+     javaPackage: 'com.github.p6m7g8.p6namer',
+     mavenGroupId: 'com.github.p6m7g8',
+     mavenArtifactId: 'p6-namer',
   },
 });
 

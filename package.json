@@ -173,9 +173,16 @@
   "jsii": {
     "outdir": "dist",
     "targets": {
+      "java": {
+        "package": "com.github.p6m7g8.p6namer",
+        "maven": {
+          "groupId": "com.github.p6m7g8",
+          "artifactId": "p6-namer"
+        }
+      },
       "python": {
         "distName": "p6-namer",
-        "module": "p6-namer"
+        "module": "p6_namer"
       }
     },
     "tsc": {
