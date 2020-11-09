@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.1.26 (2020-11-09)
+
+
+### Features
+
+* **nuget:** enables Nuget publishing (dotnet) ([#54](https://github.com/p6m7g8/p6-namer/issues/54)) ([b440179](https://github.com/p6m7g8/p6-namer/commit/b440179495441fe4e41b472b70758c6053c56fa1))
+
 ### 0.1.25 (2020-11-08)
 
 
