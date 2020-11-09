@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.1.29 (2020-11-09)
+
+
+### Features
+
+* **CONTRIBUTING:** creates, updates README ([#62](https://github.com/p6m7g8/p6-namer/issues/62)) ([ce3d1a6](https://github.com/p6m7g8/p6-namer/commit/ce3d1a6c3fc48445237cd473a7c929b26afddb42))
+
 ### 0.1.28 (2020-11-09)
 
 
