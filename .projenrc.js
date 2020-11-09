@@ -16,18 +16,19 @@ const project = new AwsCdkConstructLibrary({
     '@aws-cdk/aws-lambda',
     '@aws-cdk/aws-lambda-python'
   ],
+  codeCov: true,
 
   python: {
     distName: 'p6-namer',
     module: 'p6_namer',
   },
-
+/*
   java: {
      javaPackage: 'com.github.p6m7g8.p6namer',
      mavenGroupId: 'com.github.p6m7g8',
      mavenArtifactId: 'p6-namer',
   },
-
+*/
   dotnet: {
     dotNetNamespace: 'P6m7g8.P6Namer',
     packageId: 'P6m7g8.P6Namer',
