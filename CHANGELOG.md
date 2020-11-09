@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.1.28 (2020-11-09)
+
+
+### Bug Fixes
+
+* **README:** fixes Nuget badge ([#61](https://github.com/p6m7g8/p6-namer/issues/61)) ([aa28617](https://github.com/p6m7g8/p6-namer/commit/aa2861722be79c1a8ec575bf7fb64c1dd566067d))
+
 ### 0.1.27 (2020-11-09)
 
 ### 0.1.26 (2020-11-09)
