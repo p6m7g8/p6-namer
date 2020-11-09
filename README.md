@@ -6,9 +6,11 @@ the AWS IAM Account Alias
   - [Badges](#badges)
   - [Distributions](#distributions)
   - [Summary](#summary)
+  - [Contributing](#contributing)
+  - [Code of Conduct](#code-of-conduct)
+  - [Changes](#changes)
     - [Usage](#usage)
   - [Author](#author)
-
 ## Badges
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-yellowgreen.svg)](https://opensource.org/licenses/Apache-2.0)
@@ -28,10 +30,25 @@ the AWS IAM Account Alias
 Deploys Custom Resource backed by a Lambda function with `iam:CreateAccountAlias` permissions.
 This function is idempotent so can be re-run with the same input.
 
+## Contributing
+
+- [How to Contribute](CONTRIBUTING.md)
+
+## Code of Conduct
+
+- [Code of Conduct](CODE_OF_CONDUCT.md)
+
+## Changes
+
+- [Change Log](CHANGELOG.md)
+
 ### Usage
 ```ts
 ...
-new P6Namer.P6Namer(this, 'AccountAlias', {
+
+import { P6Namer } from 'p6-namer';
+
+new P6Namer(this, 'AccountAlias', {
   accountAlias: 'THE-ALIAS',
 });
 ```
