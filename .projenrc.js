@@ -27,6 +27,11 @@ const project = new AwsCdkConstructLibrary({
      mavenGroupId: 'com.github.p6m7g8',
      mavenArtifactId: 'p6-namer',
   },
+
+  dotnet: {
+    dotNetNamespace: 'P6m7g8.P6Namer',
+    packageId: 'P6m7g8.P6Namer',
+  },
 });
 
 project.addPeerDeps("constructs@^3.2.0");
