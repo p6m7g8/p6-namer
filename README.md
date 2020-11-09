@@ -15,6 +15,7 @@ the AWS IAM Account Alias
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/p6m7g8/p6-namer)
 ![Build](https://github.com/p6m7g8/p6-namer/workflows/Build/badge.svg)
 ![Release](https://github.com/p6m7g8/p6-namer/workflows/Release/badge.svg)
+[![Mergify](https://img.shields.io/endpoint.svg?url=https://gh.mergify.io/badges/p6m7g8/p6-namer/&style=flat)](https://mergify.io)
 
 ## Distributions
 [![npm version](https://badge.fury.io/js/p6-namer.svg)](https://badge.fury.io/js/p6-namer)
