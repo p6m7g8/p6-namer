@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.1.33 (2020-11-10)
+
+### 0.1.32 (2020-11-09)
+
+### 0.1.31 (2020-11-09)
+
+
+### Features
+
+* **codecov:** enables ([#63](https://github.com/p6m7g8/p6-namer/issues/63)) ([a9c700b](https://github.com/p6m7g8/p6-namer/commit/a9c700b3570a977434dc7558d95b89ce79e6fd7d))
+
 ### 0.1.30 (2020-11-09)
 
 ### 0.1.29 (2020-11-09)
