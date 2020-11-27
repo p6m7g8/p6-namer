@@ -32,12 +32,10 @@
   },
   "devDependencies": {
     "@aws-cdk/assert": "^1.75.0",
-    "@types/aws-lambda": "^8.10.64",
     "@types/jest": "^26.0.7",
     "@types/node": "^10.17.0",
     "@typescript-eslint/eslint-plugin": "^4.3.0",
     "@typescript-eslint/parser": "^4.3.0",
-    "esbuild": "^0",
     "eslint": "^7.11.0",
     "eslint-import-resolver-node": "^0.3.4",
     "eslint-import-resolver-typescript": "^2.3.0",
@@ -58,7 +56,7 @@
   "peerDependencies": {
     "@aws-cdk/aws-iam": "^1.75.0",
     "@aws-cdk/aws-lambda": "^1.75.0",
-    "@aws-cdk/aws-lambda-nodejs": "^1.75.0",
+    "@aws-cdk/aws-lambda-python": "^1.75.0",
     "@aws-cdk/core": "^1.75.0",
     "@aws-cdk/custom-resources": "^1.75.0",
     "constructs": "^3.2.27"
@@ -66,16 +64,11 @@
   "dependencies": {
     "@aws-cdk/aws-iam": "^1.75.0",
     "@aws-cdk/aws-lambda": "^1.75.0",
-    "@aws-cdk/aws-lambda-nodejs": "^1.75.0",
+    "@aws-cdk/aws-lambda-python": "^1.75.0",
     "@aws-cdk/core": "^1.75.0",
-    "@aws-cdk/custom-resources": "^1.75.0",
-    "aws-lambda": "^1.0.6",
-    "aws-sdk": "^2.799.0"
+    "@aws-cdk/custom-resources": "^1.75.0"
   },
-  "bundledDependencies": [
-    "aws-lambda",
-    "aws-sdk"
-  ],
+  "bundledDependencies": [],
   "keywords": [
     "account",
     "alias",
