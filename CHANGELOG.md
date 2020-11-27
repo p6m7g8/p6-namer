@@ -2,16 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### 0.1.58 (2020-11-27)
+## [0.2.0](https://github.com/p6m7g8/p6-namer/compare/v0.1.55...v0.2.0) (2020-11-27)
 
-### 0.1.57 (2020-11-27)
+### [0.1.56](https://github.com/p6m7g8/p6-namer/compare/v0.1.55...v0.1.56) (2020-11-27)
 
-
-### Bug Fixes
-
-* **lambda): Revert "refactor(lambda:** converts to aws-lambda-nodejs ([#113](https://github.com/p6m7g8/p6-namer/issues/113))" ([#114](https://github.com/p6m7g8/p6-namer/issues/114)) ([e97e09f](https://github.com/p6m7g8/p6-namer/commit/e97e09f7bbad4ad0cc540943d2ba52e5f8af4188))
-
-### 0.1.56 (2020-11-27)
+### [0.1.56](https://github.com/p6m7g8/p6-namer/compare/v0.1.55...v0.1.56) (2020-11-27)
 
 ### 0.1.55 (2020-11-26)
 

@@ -27,10 +27,10 @@ function p6_namer_iam_account_alias(alias: string): void {
  * @param _context
  * @param _callback
  */
-const handler: Handler = (event: any, _context: Context, _callback: Callback) => {
+const handler: Handler = (event: AWS.IAM.CreateAccountAliasRequest, _context: Context, _callback: Callback) => {
   console.log({ event });
 
-  p6_namer_iam_account_alias(event.ResourceProperties.accountAlias);
+  p6_namer_iam_account_alias(event.AccountAlias);
 };
 
 export { handler };
