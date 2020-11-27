@@ -35,7 +35,7 @@ const project = new AwsCdkConstructLibrary({
   },
 });
 
-project.mergify.addRule({
+project.github.addMergifyRules({
   name: 'Label core contributions',
   actions: {
     label: {
@@ -48,7 +48,7 @@ project.mergify.addRule({
   ],
 });
 
-project.mergify.addRule({
+project.github.addMergifyRules({
   name: 'Label auto-merge for core',
   actions: {
     label: {
