@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.2.1 (2020-11-27)
+
+
+### Features
+
+* **lambda:** converts from python to typescript ([#116](https://github.com/p6m7g8/p6-namer/issues/116)) ([44c6fbb](https://github.com/p6m7g8/p6-namer/commit/44c6fbb5fe68f7dcc4a6a72641e24190288652ad)), closes [#113](https://github.com/p6m7g8/p6-namer/issues/113)
+
 ## [0.2.0](https://github.com/p6m7g8/p6-namer/compare/v0.1.55...v0.2.0) (2020-11-27)
 
 ### [0.1.56](https://github.com/p6m7g8/p6-namer/compare/v0.1.55...v0.1.56) (2020-11-27)
