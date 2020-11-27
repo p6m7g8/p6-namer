@@ -23,24 +23,8 @@ const project = new AwsCdkConstructLibrary({
     '@aws-cdk/custom-resources',
     '@aws-cdk/aws-iam',
     '@aws-cdk/aws-lambda',
-    '@aws-cdk/aws-lambda-nodejs'
+    '@aws-cdk/aws-lambda-python'
   ],
-
-  devDeps: [
-    '@types/aws-lambda',
-    'esbuild@^0'
-  ],
-
-  deps: [
-    'aws-lambda',
-    'aws-sdk',
-  ],
-
-  bundledDeps: [
-    'aws-lambda',
-    'aws-sdk',
-  ],
-
   codeCov: true,
 
   python: {
