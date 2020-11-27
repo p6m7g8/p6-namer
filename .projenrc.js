@@ -6,6 +6,15 @@ const project = new AwsCdkConstructLibrary({
   cdkVersion: "1.75.0",
   name: "p6-namer",
   repository: "https://github.com/p6m7g8/p6-namer.git",
+  description: "Sets the AWS IAM Account Alias with a Custom Resource",
+  keywords: [
+    'aws',
+    'cdk',
+    'iam',
+    'account',
+    'alias',
+    'landing zone'
+  ],
 
   projenUpgradeSecret: 'PROJEN_GITHUB_TOKEN',
 
