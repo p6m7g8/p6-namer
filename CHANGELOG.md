@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.2.5 (2020-11-29)
+
+
+### Features
+
+* **bundling:** minifies ([#119](https://github.com/p6m7g8/p6-namer/issues/119)) ([4af01a7](https://github.com/p6m7g8/p6-namer/commit/4af01a7985ad185080579a97f683aa12e4c8e9f2))
+
 ### 0.2.4 (2020-11-29)
 
 ### 0.2.3 (2020-11-29)
