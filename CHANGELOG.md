@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.2.3 (2020-11-29)
+
+
+### Bug Fixes
+
+* **lambdajs:** accounts for `aws/aws-cdk/pr/11729` ([#118](https://github.com/p6m7g8/p6-namer/issues/118)) ([d637c03](https://github.com/p6m7g8/p6-namer/commit/d637c0327c25ce0263580ab801506938182e94f8))
+
 ### 0.2.2 (2020-11-28)
 
 ### 0.2.1 (2020-11-27)
