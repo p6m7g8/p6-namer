@@ -30,6 +30,7 @@ export class P6Namer extends cdk.Resource {
       externalModules: [
         'aws-sdk',
       ],
+      minify: true,
       runtime: lambda.Runtime.NODEJS_12_X,
       timeout: cdk.Duration.seconds(2),
       tracing: lambda.Tracing.ACTIVE,
