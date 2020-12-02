@@ -1,19 +1,19 @@
 const { AwsCdkConstructLibrary } = require('projen');
 
 const project = new AwsCdkConstructLibrary({
-  authorAddress: "pgollucci@p6m7g8.com",
-  authorName: "Philip M. Gollucci",
-  cdkVersion: "1.75.0",
-  name: "p6-namer",
-  repository: "https://github.com/p6m7g8/p6-namer.git",
-  description: "Sets the AWS IAM Account Alias with a Custom Resource",
+  authorAddress: 'pgollucci@p6m7g8.com',
+  authorName: 'Philip M. Gollucci',
+  cdkVersion: '1.75.0',
+  name: 'p6-namer',
+  repository: 'https://github.com/p6m7g8/p6-namer.git',
+  description: 'Sets the AWS IAM Account Alias with a Custom Resource',
   keywords: [
     'aws',
     'cdk',
     'iam',
     'account',
     'alias',
-    'landing zone'
+    'landing zone',
   ],
 
   projenUpgradeSecret: 'PROJEN_GITHUB_TOKEN',
@@ -23,7 +23,7 @@ const project = new AwsCdkConstructLibrary({
     '@aws-cdk/custom-resources',
     '@aws-cdk/aws-iam',
     '@aws-cdk/aws-lambda',
-    '@aws-cdk/aws-lambda-nodejs'
+    '@aws-cdk/aws-lambda-nodejs',
   ],
 
   devDeps: [
@@ -141,12 +141,12 @@ project.github.addMergifyRules({
   name: 'Label core contributions',
   actions: {
     label: {
-      add: ['contribution/core']
-    }
+      add: ['contribution/core'],
+    },
   },
   conditions: [
     'author~=^(pgollucci)$',
-    'label!=contribution/core'
+    'label!=contribution/core',
   ],
 });
 
@@ -154,12 +154,12 @@ project.github.addMergifyRules({
   name: 'Label auto-merge for core',
   actions: {
     label: {
-      add: ['auto-merge']
-    }
+      add: ['auto-merge'],
+    },
   },
   conditions: [
     'label=contribution/core',
-    'label!=auto-merge'
+    'label!=auto-merge',
   ],
 });
 
