@@ -19,6 +19,7 @@ the AWS IAM Account Alias
 ![Release](https://github.com/p6m7g8/p6-namer/workflows/Release/badge.svg)
 [![Mergify](https://img.shields.io/endpoint.svg?url=https://gh.mergify.io/badges/p6m7g8/p6-namer/&style=flat)](https://mergify.io)
 [![codecov](https://codecov.io/gh/p6m7g8/p6-namer/branch/master/graph/badge.svg?token=14Yj1fZbew)](https://codecov.io/gh/p6m7g8/p6-namer)
+[![Known Vulnerabilities](https://snyk.io/test/github/p6m7g8/p6-namer/badge.svg?targetFile=package.json)](https://snyk.io/test/github/p6m7g8/p6-namer?targetFile=package.json)
 
 ## Distributions
 [![npm version](https://badge.fury.io/js/p6-namer.svg)](https://badge.fury.io/js/p6-namer)
