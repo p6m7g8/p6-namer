@@ -5106,7 +5106,6 @@ projen@^0.6.3:
   version "0.6.3"
   resolved "https://registry.yarnpkg.com/projen/-/projen-0.6.3.tgz#4c0bea8c54f3c60745334d12de3301690506bf82"
   integrity sha512-fd+F+K5RvjP7P++sRIf+tIF+YGDYgoTsucUInZBNUnlRQfpB0Hq0D0WHqh2C2MQ8lDUkQUZg6sdRWf7aQymOCw==
-
   dependencies:
     "@iarna/toml" "^2.2.5"
     chalk "^4.1.0"
