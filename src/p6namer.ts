@@ -1,5 +1,3 @@
-import * as fs from 'fs';
-import * as path from 'path';
 import * as iam from '@aws-cdk/aws-iam';
 import * as lambda from '@aws-cdk/aws-lambda';
 import * as lambdajs from '@aws-cdk/aws-lambda-nodejs';
@@ -20,13 +18,7 @@ export class P6Namer extends cdk.Resource {
       effect: iam.Effect.ALLOW,
     });
 
-    // XXX: https://github.com/aws/aws-cdk/pull/11729
-    const entry = fs.existsSync(path.join(__dirname, 'p6namer.p6namer.ts'))
-      ? path.join(__dirname, 'p6namer.p6namer.ts') // local development
-      : path.join(__dirname, 'p6namer.p6namer.js'); // when published in npm
-
     const onEvent = new lambdajs.NodejsFunction(this, 'p6namer', {
-      entry,
       externalModules: [
         'aws-sdk',
       ],
