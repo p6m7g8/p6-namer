@@ -27,13 +27,15 @@ export class P6Namer extends cdk.Resource {
 
     const onEvent = new lambdajs.NodejsFunction(this, 'p6namer', {
       entry,
-      externalModules: [
-        'aws-sdk',
-      ],
-      minify: true,
       runtime: lambda.Runtime.NODEJS_12_X,
       timeout: cdk.Duration.seconds(2),
       tracing: lambda.Tracing.ACTIVE,
+      bundling: {
+        minify: true,
+        externalModules: [
+          'aws-sdk',
+        ],
+      },
     });
 
     onEvent.addToRolePolicy(policy);
