@@ -49,9 +49,9 @@ const project = new AwsCdkConstructLibrary({
   },
 
   java: {
-     javaPackage: 'com.github.p6m7g8.p6namer',
-     mavenGroupId: 'com.github.p6m7g8',
-     mavenArtifactId: 'p6-namer',
+    javaPackage: 'com.github.p6m7g8.p6namer',
+    mavenGroupId: 'com.github.p6m7g8',
+    mavenArtifactId: 'p6-namer',
   },
 
   dotnet: {
