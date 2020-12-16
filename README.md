@@ -25,7 +25,7 @@ the AWS IAM Account Alias
 [![npm version](https://badge.fury.io/js/p6-namer.svg)](https://badge.fury.io/js/p6-namer)
 [![PyPI version](https://badge.fury.io/py/p6-namer.svg)](https://badge.fury.io/py/p6-namer)
 [![NuGet version](https://badge.fury.io/nu/P6m7g8.P6Namer.svg)](https://badge.fury.io/nu/P6m7g8.P6Namer)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/P6m7g8.P6Namer/P6Namer/badge.svg)](https://maven-badges.herokuapp.com/maven-central/P6m7g8.P6Namer/P6Namer)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.p6m7g8/p6-namer/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.p6m7g8/p6-namer)
 
 ## Summary
 
