@@ -41,6 +41,7 @@ const project = new AwsCdkConstructLibrary({
     'aws-sdk',
   ],
 
+  gitpod: true,
   codeCov: true,
 
   python: {
@@ -160,6 +161,12 @@ project.github.addMergifyRules({
     'label=contribution/core',
     'label!=auto-merge',
   ],
+});
+
+project.gitpod.addTasks({
+  name: 'Setup',
+  init: 'yarn install',
+  command: 'npx projen build',
 });
 
 project.synth();
