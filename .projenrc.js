@@ -164,9 +164,9 @@ project.github.addMergifyRules({
 });
 
 project.gitpod.addTasks({
-  name: "Setup",
-  init: "yarn install",
-  command: "npx projen build"
+  name: 'Setup',
+  init: 'yarn install',
+  command: 'npx projen build',
 });
 
 project.synth();
