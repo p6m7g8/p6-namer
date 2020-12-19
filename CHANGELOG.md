@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.2.46 (2020-12-19)
+
+
+### Features
+
+* **gitpod:** enables Gitpod via `projen` ([#195](https://github.com/p6m7g8/p6-namer/issues/195)) ([7ebfe34](https://github.com/p6m7g8/p6-namer/commit/7ebfe34003bf5e4a409ed8faaf15fc3331c51acd))
+
 ### 0.2.45 (2020-12-19)
 
 ### 0.2.44 (2020-12-18)
