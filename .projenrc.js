@@ -42,6 +42,7 @@ const project = new AwsCdkConstructLibrary({
   ],
 
   gitpod: true,
+  docgen: true,
   codeCov: true,
 
   python: {
