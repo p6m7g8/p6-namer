@@ -20,8 +20,8 @@
     "watch": "npx projen watch",
     "package": "npx projen package",
     "eslint": "npx projen eslint",
-    "compat": "npx projen compat",
-    "docgen": "npx projen docgen"
+    "docgen": "npx projen docgen",
+    "compat": "npx projen compat"
   },
   "author": {
     "name": "Philip M. Gollucci",
@@ -51,6 +51,7 @@
     "projen": "^0.6.17",
     "standard-version": "^9.0.0",
     "ts-jest": "^26.1.0",
+    "typedoc": "^0.19.2",
     "typescript": "^3.9.5"
   },
   "peerDependencies": {
