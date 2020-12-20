@@ -1,10 +1,10 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import * as iam from '@aws-cdk/aws-iam';
 import * as lambda from '@aws-cdk/aws-lambda';
 import * as lambdajs from '@aws-cdk/aws-lambda-nodejs';
 import * as cdk from '@aws-cdk/core';
 import * as cr from '@aws-cdk/custom-resources';
+import * as floyd from 'cdk-iam-floyd';
 
 export interface IP6NamerProps {
   accountAlias: string;
@@ -14,11 +14,9 @@ export class P6Namer extends cdk.Resource {
   constructor(scope: cdk.Construct, id: string, props: IP6NamerProps) {
     super(scope, id);
 
-    const policy = new iam.PolicyStatement({
-      actions: ['iam:CreateAccountAlias'],
-      resources: ['*'],
-      effect: iam.Effect.ALLOW,
-    });
+    const policy = new floyd.Iam()
+      .allow()
+      .toCreateAccountAlias();
 
     // XXX: https://github.com/aws/aws-cdk/pull/11729
     const entry = fs.existsSync(path.join(__dirname, 'p6namer.p6namer.ts'))

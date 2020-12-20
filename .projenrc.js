@@ -21,7 +21,6 @@ const project = new AwsCdkConstructLibrary({
   cdkDependencies: [
     '@aws-cdk/core',
     '@aws-cdk/custom-resources',
-    '@aws-cdk/aws-iam',
     '@aws-cdk/aws-lambda',
     '@aws-cdk/aws-lambda-nodejs',
   ],
@@ -34,11 +33,13 @@ const project = new AwsCdkConstructLibrary({
   deps: [
     'aws-lambda',
     'aws-sdk',
+    'cdk-iam-floyd',
   ],
 
   bundledDeps: [
     'aws-lambda',
     'aws-sdk',
+    'cdk-iam-floyd',
   ],
 
   gitpod: true,
