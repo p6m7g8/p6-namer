@@ -2,6 +2,44 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.7.1](https://github.com/p6m7g8/p6-namer/compare/v0.6.0...v0.7.1) (2020-12-24)
+
+## 0.7.0 (2020-12-24)
+
+
+### ⚠ BREAKING CHANGES
+
+* **api:** Introduces `accountAlias` via the `P6NamerProps` which is the only user tunable
+
+### Features
+
+* **api:** converts lambda to a custom resource and leverages crhelper ([#6](https://github.com/p6m7g8/p6-namer/issues/6)) ([49ff355](https://github.com/p6m7g8/p6-namer/commit/49ff35568abb4febfdeda2c576167c82e9290f89))
+* **bundling:** minifies ([#119](https://github.com/p6m7g8/p6-namer/issues/119)) ([4af01a7](https://github.com/p6m7g8/p6-namer/commit/4af01a7985ad185080579a97f683aa12e4c8e9f2))
+* **CoC:** setups up Code of Conduct ([#58](https://github.com/p6m7g8/p6-namer/issues/58)) ([f42c304](https://github.com/p6m7g8/p6-namer/commit/f42c3045735fcf5d2237d1106149fe4462f7777e))
+* **codecov:** enables ([#63](https://github.com/p6m7g8/p6-namer/issues/63)) ([a9c700b](https://github.com/p6m7g8/p6-namer/commit/a9c700b3570a977434dc7558d95b89ce79e6fd7d))
+* **CONTRIBUTING:** creates, updates README ([#62](https://github.com/p6m7g8/p6-namer/issues/62)) ([ce3d1a6](https://github.com/p6m7g8/p6-namer/commit/ce3d1a6c3fc48445237cd473a7c929b26afddb42))
+* **gitpod:** enables Gitpod via `projen` ([#195](https://github.com/p6m7g8/p6-namer/issues/195)) ([7ebfe34](https://github.com/p6m7g8/p6-namer/commit/7ebfe34003bf5e4a409ed8faaf15fc3331c51acd))
+* **init:** adds the lambda ([d236a6b](https://github.com/p6m7g8/p6-namer/commit/d236a6b7c7a923ec82b9987c2019d856ce141cb0))
+* **init:** initial commit. ([fd0349d](https://github.com/p6m7g8/p6-namer/commit/fd0349d8ffbf3805b6b6f4b0099a8e2ba7a7b319))
+* **java:** enable publishing to maven central ([#182](https://github.com/p6m7g8/p6-namer/issues/182)) ([3d55342](https://github.com/p6m7g8/p6-namer/commit/3d55342804392b61c79e57c3275941464e214761))
+* **java:** enables maven publishing ([#53](https://github.com/p6m7g8/p6-namer/issues/53)) ([d9a1d5c](https://github.com/p6m7g8/p6-namer/commit/d9a1d5cbe43530c2b05dbdc3ec42c96ba640cddf))
+* **lambda:** converts from python to typescript ([#116](https://github.com/p6m7g8/p6-namer/issues/116)) ([44c6fbb](https://github.com/p6m7g8/p6-namer/commit/44c6fbb5fe68f7dcc4a6a72641e24190288652ad)), closes [#113](https://github.com/p6m7g8/p6-namer/issues/113)
+* **mergify:** label core and auto-merge it ([#32](https://github.com/p6m7g8/p6-namer/issues/32)) ([7362348](https://github.com/p6m7g8/p6-namer/commit/7362348fd67f6cca49080b5fd40f40a96172c8cd))
+* **nuget:** enables Nuget publishing (dotnet) ([#54](https://github.com/p6m7g8/p6-namer/issues/54)) ([b440179](https://github.com/p6m7g8/p6-namer/commit/b440179495441fe4e41b472b70758c6053c56fa1))
+* **projen:** enable auto projen upgrades ([#29](https://github.com/p6m7g8/p6-namer/issues/29)) ([23ff800](https://github.com/p6m7g8/p6-namer/commit/23ff800e4af0a2a1d91eaa1fb24214d18a89782b))
+* **pypi:** enable pypi publishing ([#52](https://github.com/p6m7g8/p6-namer/issues/52)) ([9722017](https://github.com/p6m7g8/p6-namer/commit/97220177e809d27706209e43f57b717240326628))
+* **README:** setups up badges, fixes usage ([#30](https://github.com/p6m7g8/p6-namer/issues/30)) ([2ce533c](https://github.com/p6m7g8/p6-namer/commit/2ce533ca54e7da6bf9940f986556fde6a7f9e363))
+
+
+### Bug Fixes
+
+* **demo:** sets a quicky change for demo ([#5](https://github.com/p6m7g8/p6-namer/issues/5)) ([5f77c81](https://github.com/p6m7g8/p6-namer/commit/5f77c81723f6cad1464762b47cc703b29c540cc9))
+* **lambda): Revert "refactor(lambda:** converts to aws-lambda-nodejs ([#113](https://github.com/p6m7g8/p6-namer/issues/113))" ([#114](https://github.com/p6m7g8/p6-namer/issues/114)) ([e97e09f](https://github.com/p6m7g8/p6-namer/commit/e97e09f7bbad4ad0cc540943d2ba52e5f8af4188))
+* **lambdajs:** accounts for `aws/aws-cdk/pr/11729` ([#118](https://github.com/p6m7g8/p6-namer/issues/118)) ([d637c03](https://github.com/p6m7g8/p6-namer/commit/d637c0327c25ce0263580ab801506938182e94f8))
+* **projen:** pending pr from projen, bumps constructs 3.0.4 to 3.2.0 ([#59](https://github.com/p6m7g8/p6-namer/issues/59)) ([42bc5f8](https://github.com/p6m7g8/p6-namer/commit/42bc5f83ddb6771295178a0e97a0d447a6edd666))
+* **README:** fixes Nuget badge ([#61](https://github.com/p6m7g8/p6-namer/issues/61)) ([aa28617](https://github.com/p6m7g8/p6-namer/commit/aa2861722be79c1a8ec575bf7fb64c1dd566067d))
+* **README:** fixes typo Acount -> Account ([#3](https://github.com/p6m7g8/p6-namer/issues/3)) ([71c1124](https://github.com/p6m7g8/p6-namer/commit/71c11249cff925bafab32f29e73bf761b9133c46))
+
 ## 0.6.0 (2020-12-23)
 
 
