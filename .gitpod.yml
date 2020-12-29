@@ -2,5 +2,4 @@
 
 tasks:
   - name: Setup
-    init: yarn install
-    command: npx projen build
+    command: npx projen Setup
