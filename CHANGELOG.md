@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.7.10](https://github.com/p6m7g8/p6-namer/compare/v0.7.9...v0.7.10) (2020-12-31)
+
 ### [0.7.9](https://github.com/p6m7g8/p6-namer/compare/v0.7.7...v0.7.9) (2020-12-30)
 
 ### [0.7.8](https://github.com/p6m7g8/p6-namer/compare/v0.7.7...v0.7.8) (2020-12-30)
