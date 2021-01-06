@@ -30,7 +30,7 @@
     "organization": false
   },
   "devDependencies": {
-    "@aws-cdk/assert": "^1.80.0",
+    "@aws-cdk/assert": "^1.82.0",
     "@types/aws-lambda": "^8.10.64",
     "@types/jest": "^26.0.7",
     "@types/node": "^10.17.0",
@@ -49,24 +49,24 @@
     "jsii-pacmak": "^1.11.0",
     "jsii-release": "^0.1.6",
     "json-schema": "^0.2.5",
-    "projen": "^0.13.6",
+    "projen": "^0.13.8",
     "standard-version": "^9.0.0",
     "ts-jest": "^26.1.0",
     "typedoc": "^0.19.2",
     "typescript": "^3.9.5"
   },
   "peerDependencies": {
-    "@aws-cdk/aws-lambda": "^1.80.0",
-    "@aws-cdk/aws-lambda-nodejs": "^1.80.0",
-    "@aws-cdk/core": "^1.80.0",
-    "@aws-cdk/custom-resources": "^1.80.0",
+    "@aws-cdk/aws-lambda": "^1.82.0",
+    "@aws-cdk/aws-lambda-nodejs": "^1.82.0",
+    "@aws-cdk/core": "^1.82.0",
+    "@aws-cdk/custom-resources": "^1.82.0",
     "constructs": "^3.2.27"
   },
   "dependencies": {
-    "@aws-cdk/aws-lambda": "^1.80.0",
-    "@aws-cdk/aws-lambda-nodejs": "^1.80.0",
-    "@aws-cdk/core": "^1.80.0",
-    "@aws-cdk/custom-resources": "^1.80.0",
+    "@aws-cdk/aws-lambda": "^1.82.0",
+    "@aws-cdk/aws-lambda-nodejs": "^1.82.0",
+    "@aws-cdk/core": "^1.82.0",
+    "@aws-cdk/custom-resources": "^1.82.0",
     "aws-lambda": "^1.0.6",
     "aws-sdk": "^2.799.0",
     "cdk-iam-floyd": "^0.109.0"
@@ -94,11 +94,20 @@
     ],
     "clearMocks": true,
     "collectCoverage": true,
+    "coverageReporters": [
+      "json",
+      "lcov",
+      "clover",
+      "text"
+    ],
     "coverageDirectory": "coverage",
     "coveragePathIgnorePatterns": [
       "/node_modules/"
     ],
     "testPathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "watchPathIgnorePatterns": [
       "/node_modules/"
     ],
     "reporters": [
