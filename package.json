@@ -69,7 +69,7 @@
     "@aws-cdk/custom-resources": "^1.86.0",
     "aws-lambda": "^1.0.6",
     "aws-sdk": "^2.799.0",
-    "cdk-iam-floyd": "^0.120.0"
+    "cdk-iam-floyd": "^0.121.0"
   },
   "bundledDependencies": [
     "aws-lambda",
