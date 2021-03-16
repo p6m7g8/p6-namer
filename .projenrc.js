@@ -16,6 +16,7 @@ const project = new AwsCdkConstructLibrary({
     'landing zone',
   ],
 
+  defaultReleaseBranch: 'master',
   projenUpgradeSecret: 'PROJEN_GITHUB_TOKEN',
 
   cdkDependencies: [
@@ -138,6 +139,8 @@ const project = new AwsCdkConstructLibrary({
   // workflowContainerImage: undefined,                                        /* Container image to use for GitHub workflows. */
   // workflowNodeVersion: undefined,                                           /* The node version to use in GitHub workflows. */
 });
+
+project.gitignore.exclude('.node-version');
 
 project.github.addMergifyRules({
   name: 'Label core contributions',
