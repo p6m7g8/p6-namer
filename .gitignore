@@ -9,6 +9,7 @@
 .cache
 .eslintcache
 .jsii
+.node-version
 .nyc_output
 .yarn-integrity
 /coverage
@@ -34,7 +35,6 @@ yarn-error.log*
 !/.github/pull_request_template.md
 !/.github/workflows/build.yml
 !/.github/workflows/projenupgrade.yml
-!/.github/workflows/rebuild-bot.yml
 !/.github/workflows/release.yml
 !/.gitpod.yml
 !/.mergify.yml
