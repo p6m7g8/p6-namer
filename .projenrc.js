@@ -3,7 +3,7 @@ const { AwsCdkConstructLibrary } = require('projen');
 const project = new AwsCdkConstructLibrary({
   authorAddress: 'pgollucci@p6m7g8.com',
   authorName: 'Philip M. Gollucci',
-  cdkVersion: '1.86.0',
+  cdkVersion: '1.94.0',
   name: 'p6-namer',
   repository: 'https://github.com/p6m7g8/p6-namer.git',
   description: 'Sets the AWS IAM Account Alias with a Custom Resource',
@@ -16,6 +16,7 @@ const project = new AwsCdkConstructLibrary({
     'landing zone',
   ],
 
+  defaultReleaseBranch: 'master',
   projenUpgradeSecret: 'PROJEN_GITHUB_TOKEN',
 
   cdkDependencies: [
@@ -138,6 +139,8 @@ const project = new AwsCdkConstructLibrary({
   // workflowContainerImage: undefined,                                        /* Container image to use for GitHub workflows. */
   // workflowNodeVersion: undefined,                                           /* The node version to use in GitHub workflows. */
 });
+
+project.gitignore.exclude('.node-version');
 
 project.github.addMergifyRules({
   name: 'Label core contributions',
