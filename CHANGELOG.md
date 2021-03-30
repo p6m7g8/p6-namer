@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.7.45](https://github.com/p6m7g8/p6-namer/compare/v0.7.44...v0.7.45) (2021-03-30)
+
+
+### Bug Fixes
+
+* upgrade cdk-iam-floyd from 0.134.0 to 0.135.0 ([#379](https://github.com/p6m7g8/p6-namer/issues/379)) ([d632c57](https://github.com/p6m7g8/p6-namer/commit/d632c57203ebc2cf7141cabd86a68db6e73f28aa))
+
 ### [0.7.44](https://github.com/p6m7g8/p6-namer/compare/v0.7.43...v0.7.44) (2021-03-16)
 
 
