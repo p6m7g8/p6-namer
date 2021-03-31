@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.7.46](https://github.com/p6m7g8/p6-namer/compare/v0.7.45...v0.7.46) (2021-03-31)
+
 ### [0.7.45](https://github.com/p6m7g8/p6-namer/compare/v0.7.44...v0.7.45) (2021-03-30)
 
 
