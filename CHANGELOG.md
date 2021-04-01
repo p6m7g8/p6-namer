@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.7.48](https://github.com/p6m7g8/p6-namer/compare/v0.7.47...v0.7.48) (2021-04-01)
+
+
+### Bug Fixes
+
+* **deps:** SECURITY - fixes CVE-2021-28918 ([#389](https://github.com/p6m7g8/p6-namer/issues/389)) ([4e1e147](https://github.com/p6m7g8/p6-namer/commit/4e1e147b41642d1532dbac799efb9edc29b695f3))
+
 ### [0.7.47](https://github.com/p6m7g8/p6-namer/compare/v0.7.46...v0.7.47) (2021-04-01)
 
 ### [0.7.46](https://github.com/p6m7g8/p6-namer/compare/v0.7.45...v0.7.46) (2021-03-31)
