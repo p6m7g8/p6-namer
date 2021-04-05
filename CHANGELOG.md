@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.7.54](https://github.com/p6m7g8/p6-namer/compare/v0.7.53...v0.7.54) (2021-04-05)
+
+
+### Bug Fixes
+
+* **deps:** SECURITY - https://nvd.nist.gov/vuln/detail/CVE-2021-21306 ([#400](https://github.com/p6m7g8/p6-namer/issues/400)) ([122eaf2](https://github.com/p6m7g8/p6-namer/commit/122eaf2815cce010f2a772d47308f394de13e1dd))
+
 ### [0.7.53](https://github.com/p6m7g8/p6-namer/compare/v0.7.52...v0.7.53) (2021-04-05)
 
 ### [0.7.52](https://github.com/p6m7g8/p6-namer/compare/v0.7.51...v0.7.52) (2021-04-05)
