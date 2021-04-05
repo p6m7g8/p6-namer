@@ -2,7 +2,7 @@
   "dependencies": [
     {
       "name": "@aws-cdk/assert",
-      "version": "^1.95.2",
+      "version": "^1.96.0",
       "type": "build"
     },
     {
@@ -112,22 +112,22 @@
     },
     {
       "name": "@aws-cdk/aws-lambda-nodejs",
-      "version": "^1.95.2",
+      "version": "^1.96.0",
       "type": "peer"
     },
     {
       "name": "@aws-cdk/aws-lambda",
-      "version": "^1.95.2",
+      "version": "^1.96.0",
       "type": "peer"
     },
     {
       "name": "@aws-cdk/core",
-      "version": "^1.95.2",
+      "version": "^1.96.0",
       "type": "peer"
     },
     {
       "name": "@aws-cdk/custom-resources",
-      "version": "^1.95.2",
+      "version": "^1.96.0",
       "type": "peer"
     },
     {
@@ -137,22 +137,22 @@
     },
     {
       "name": "@aws-cdk/aws-lambda-nodejs",
-      "version": "^1.95.2",
+      "version": "^1.96.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/aws-lambda",
-      "version": "^1.95.2",
+      "version": "^1.96.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/core",
-      "version": "^1.95.2",
+      "version": "^1.96.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/custom-resources",
-      "version": "^1.95.2",
+      "version": "^1.96.0",
       "type": "runtime"
     },
     {
