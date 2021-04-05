@@ -95,6 +95,11 @@
       "type": "build"
     },
     {
+      "name": "typedoc",
+      "version": "^0.20.35",
+      "type": "build"
+    },
+    {
       "name": "typescript",
       "type": "build"
     },

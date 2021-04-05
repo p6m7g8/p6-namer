@@ -28,6 +28,7 @@ const project = new AwsCdkConstructLibrary({
 
   devDeps: [
     '@types/aws-lambda',
+    'typedoc@^0.20.35',
     'esbuild@^0',
   ],
 
