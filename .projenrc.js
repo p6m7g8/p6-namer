@@ -99,12 +99,12 @@ project.github.addMergifyRules({
       method: 'squash',
       commit_message: 'title+body',
       strict: 'smart',
-      strict_method: 'merge'
-    }
+      strict_method: 'merge',
+    },
   },
   conditions: [
     'author=snyk-bot',
-    'status-success=build'
+    'status-success=build',
   ],
 });
 
