@@ -51,7 +51,7 @@
     "projen": "^0.17.25",
     "standard-version": "^9",
     "ts-jest": "^26.1.0",
-    "typedoc": "^0.19.2",
+    "typedoc": "^0.20.35",
     "typescript": "^3.9.5"
   },
   "peerDependencies": {
