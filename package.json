@@ -30,7 +30,7 @@
     "organization": false
   },
   "devDependencies": {
-    "@aws-cdk/assert": "^1.96.0",
+    "@aws-cdk/assert": "^1.97.0",
     "@types/aws-lambda": "^8.10.64",
     "@types/jest": "^26.0.7",
     "@types/node": "^10.17.0",
@@ -55,17 +55,17 @@
     "typescript": "^3.9.5"
   },
   "peerDependencies": {
-    "@aws-cdk/aws-lambda": "^1.96.0",
-    "@aws-cdk/aws-lambda-nodejs": "^1.96.0",
-    "@aws-cdk/core": "^1.96.0",
-    "@aws-cdk/custom-resources": "^1.96.0",
+    "@aws-cdk/aws-lambda": "^1.97.0",
+    "@aws-cdk/aws-lambda-nodejs": "^1.97.0",
+    "@aws-cdk/core": "^1.97.0",
+    "@aws-cdk/custom-resources": "^1.97.0",
     "constructs": "^3.2.27"
   },
   "dependencies": {
-    "@aws-cdk/aws-lambda": "^1.96.0",
-    "@aws-cdk/aws-lambda-nodejs": "^1.96.0",
-    "@aws-cdk/core": "^1.96.0",
-    "@aws-cdk/custom-resources": "^1.96.0",
+    "@aws-cdk/aws-lambda": "^1.97.0",
+    "@aws-cdk/aws-lambda-nodejs": "^1.97.0",
+    "@aws-cdk/core": "^1.97.0",
+    "@aws-cdk/custom-resources": "^1.97.0",
     "aws-lambda": "^1.0.6",
     "aws-sdk": "^2.848.0",
     "cdk-iam-floyd": "^0.145.0"
