@@ -1641,10 +1641,10 @@ caseless@~0.12.0:
   resolved "https://registry.yarnpkg.com/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
   integrity sha1-G2gcIf+EAzyCZUMJBolCDRhxUdw=
 
-cdk-iam-floyd@^0.145.0:
-  version "0.145.0"
-  resolved "https://registry.yarnpkg.com/cdk-iam-floyd/-/cdk-iam-floyd-0.145.0.tgz#4e2a45a57c87e1308028493b0a458756939fcc92"
-  integrity sha512-u7eNxZURoSzyLnR01Sss19tiQMSPuDWU5rdRINXgqaaCJmTmFV1QI0Vo0j5377JrJZLUSgeNwyfbhKyd0SsnuQ==
+cdk-iam-floyd@^0.146.0:
+  version "0.146.0"
+  resolved "https://registry.yarnpkg.com/cdk-iam-floyd/-/cdk-iam-floyd-0.146.0.tgz#b1ebbb7f2e025586d2a3cb89b54c7da571607cdf"
+  integrity sha512-dYu1oZnhGPwj2tlI7uvh154t/MhzxZ/Eeu7dmAtPAilxqpK7o8Wy5nb2qjVUi+9PpJEPy3agJtw7OVipXlQ6Lw==
   dependencies:
     "@udondan/common-substrings" "^3.0.2"
     regex-parser "^2.2.11"
