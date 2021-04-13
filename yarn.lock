@@ -4193,7 +4193,7 @@ jsii-pacmak@^1.11.0:
     xmlbuilder "^15.1.1"
     yargs "^16.2.0"
 
-jsii-reflect@^1.16.0, jsii-reflect@^1.27.0, jsii-reflect@^1.27.1:
+jsii-reflect@^1.16.0, jsii-reflect@^1.27.1:
   version "1.27.1"
   resolved "https://registry.yarnpkg.com/jsii-reflect/-/jsii-reflect-1.27.1.tgz#f1d6a53db2624441112dc4caccefa8eff63d4534"
   integrity sha512-I2jc7Gv26N9MUyVhewjLS9vZJL4aPOcKCjgsmpDCX4Pz7ny9Op7iHNST9LpicY0Vqv81gi8OnsM0mWBPUM2nOA==
@@ -5219,10 +5219,10 @@ progress@^2.0.0, progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.17.30:
-  version "0.17.30"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.17.30.tgz#3f69d2fa6b09a14c536062c646116caf6f7e4f9f"
-  integrity sha512-NyQtS6zIvkPOB7OuRIvYafS3XBmgu7GNDuLAivMG0OIoo0OGlCFC8MuWIJd1sejOHjlZUPz4izA00vYu/x7I6Q==
+projen@^0.17.37:
+  version "0.17.37"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.17.37.tgz#7eaeb6aba8484147aeadd4521d5af902a36732c5"
+  integrity sha512-alIcnqPrwKnXq4Em/TaKZytrTLL88V4VeXYhguJPB9tk+YRwj4JaB3PxcUgNxWRDd1D33Wz3H1o4Jz8hkryMEA==
   dependencies:
     "@iarna/toml" "^2.2.5"
     chalk "^4.1.0"
