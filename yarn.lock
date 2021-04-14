@@ -848,8 +848,7 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-
-"@jsii/spec@^1.16.0", "@jsii/spec@^1.27.0", "@jsii/spec@^1.28.0":
+"@jsii/spec@^1.16.0", "@jsii/spec@^1.28.0":
   version "1.28.0"
   resolved "https://registry.yarnpkg.com/@jsii/spec/-/spec-1.28.0.tgz#47db1102fc0291dbffffb3adb7f8ee0671e15ef3"
   integrity sha512-5mcupuCCXyhZwNmX/RDBn3WUYtd0oPXEDa3E+qOSjT30vaO8u9ZQ+mxwl4qsecx3m51LhXKnR1C9U9t4VlAmqA==
@@ -1364,9 +1363,9 @@ aws-lambda@^1.0.6:
     watchpack "^2.0.0-beta.10"
 
 aws-sdk@*, aws-sdk@^2.848.0:
-  version "2.885.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.885.0.tgz#f8d8d7e2d31d517c3cea90dc2dbbfb9b6332eb98"
-  integrity sha512-V7fS53HkLYap+mt00frWB516HZV34C5pHNhBs/Het3Vgl7A0GbCpJs07G4FOIT9ioJ38+k9McscOzXG++1rWMQ==
+  version "2.886.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.886.0.tgz#a3c17ead366eb05d3c1bd3f0efc7b4cdf4daab54"
+  integrity sha512-GK2TiijM/sX3PMOvPbZFPBeL7hW5S0RstwgplEABVxCMPXLkk8ws5ENOwS/c74nrTQKSxZMn/3sThNEtb3J7Ew==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -1636,10 +1635,10 @@ caseless@~0.12.0:
   resolved "https://registry.yarnpkg.com/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
   integrity sha1-G2gcIf+EAzyCZUMJBolCDRhxUdw=
 
-cdk-iam-floyd@^0.149.0:
-  version "0.149.0"
-  resolved "https://registry.yarnpkg.com/cdk-iam-floyd/-/cdk-iam-floyd-0.149.0.tgz#ec718ce2afed75d910d490a712d22e11c4aa19e4"
-  integrity sha512-WOAsbzFkrJrG1NFP+L29mdNjSGVr/nJD2a44hdwP4kQmEdsga8L5hOphLEtA8C3/SDW8uuUCJOVjGbbRKPo7AA==
+cdk-iam-floyd@^0.151.0:
+  version "0.151.0"
+  resolved "https://registry.yarnpkg.com/cdk-iam-floyd/-/cdk-iam-floyd-0.151.0.tgz#ceee4e24d52337df85b662097b1082705c8f04c4"
+  integrity sha512-XOyCcCgk92wpPljwFKTfkq/PWMBQgH3mVQAI00UUfoxWoxAmVfz30Jeuej2rTBYD1TXaUuHlqei54LFxwm8m9g==
   dependencies:
     "@udondan/common-substrings" "^3.0.2"
     regex-parser "^2.2.11"
