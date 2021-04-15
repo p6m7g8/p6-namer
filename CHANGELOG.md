@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.7.94](https://github.com/p6m7g8/p6-namer/compare/v0.7.93...v0.7.94) (2021-04-15)
+
+
+### Bug Fixes
+
+* **cicd:** SECURITY - https://about.codecov.io/security-update; DISABLED ([#449](https://github.com/p6m7g8/p6-namer/issues/449)) ([4ae8a6d](https://github.com/p6m7g8/p6-namer/commit/4ae8a6d5d765d91d38c51561292108dd46273818))
+
 ### [0.7.93](https://github.com/p6m7g8/p6-namer/compare/v0.7.92...v0.7.93) (2021-04-15)
 
 ### [0.7.92](https://github.com/p6m7g8/p6-namer/compare/v0.7.91...v0.7.92) (2021-04-15)
