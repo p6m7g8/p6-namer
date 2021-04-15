@@ -46,7 +46,6 @@ const project = new AwsCdkConstructLibrary({
 
   gitpod: true,
   docgen: true,
-  codeCov: true,
 
   python: {
     distName: 'p6-namer',
