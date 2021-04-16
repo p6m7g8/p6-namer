@@ -16,6 +16,9 @@ const project = new AwsCdkConstructLibrary({
     'landing zone',
   ],
 
+  gitpod: true,
+  docgen: true,
+
   defaultReleaseBranch: 'master',
   projenUpgradeSecret: 'PROJEN_GITHUB_TOKEN',
 
@@ -44,9 +47,6 @@ const project = new AwsCdkConstructLibrary({
     'cdk-iam-floyd',
   ],
 
-  gitpod: true,
-  docgen: true,
-
   python: {
     distName: 'p6-namer',
     module: 'p6_namer',
@@ -61,6 +61,10 @@ const project = new AwsCdkConstructLibrary({
   dotnet: {
     dotNetNamespace: 'P6m7g8.P6Namer',
     packageId: 'P6m7g8.P6Namer',
+  },
+
+  publishToGo: {
+    moduleName: 'github.com/p6m7g8/p6-namer',
   },
 });
 
