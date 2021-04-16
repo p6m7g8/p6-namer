@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.7.102](https://github.com/p6m7g8/p6-namer/compare/v0.7.101...v0.7.102) (2021-04-16)
+
+
+### Features
+
+* **node:** drops support for node.js <= 13 ([#458](https://github.com/p6m7g8/p6-namer/issues/458)) ([ff27b4f](https://github.com/p6m7g8/p6-namer/commit/ff27b4f324edd7ce4b484f36c60d5090b73e966e))
+
 ### [0.7.101](https://github.com/p6m7g8/p6-namer/compare/v0.7.100...v0.7.101) (2021-04-16)
 
 ### [0.7.100](https://github.com/p6m7g8/p6-namer/compare/v0.7.99...v0.7.100) (2021-04-16)
