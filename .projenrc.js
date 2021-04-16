@@ -16,6 +16,7 @@ const project = new AwsCdkConstructLibrary({
     'landing zone',
   ],
 
+  minNodeVersion: '14.0.0',
   defaultReleaseBranch: 'master',
   projenUpgradeSecret: 'PROJEN_GITHUB_TOKEN',
 
