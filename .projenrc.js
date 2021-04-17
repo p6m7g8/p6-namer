@@ -17,7 +17,7 @@ const project = new AwsCdkConstructLibrary({
   ],
 
   minNodeVersion: '14.0.0',
-  defaultReleaseBranch: 'master',
+  defaultReleaseBranch: 'main',
   projenUpgradeSecret: 'PROJEN_GITHUB_TOKEN',
 
   cdkDependencies: [
