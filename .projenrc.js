@@ -19,6 +19,8 @@ const project = new AwsCdkConstructLibrary({
   minNodeVersion: '14.0.0',
   defaultReleaseBranch: 'main',
   projenUpgradeSecret: 'PROJEN_GITHUB_TOKEN',
+  gitpod: true,
+  devenv: true,
 
   cdkDependencies: [
     '@aws-cdk/core',
@@ -44,9 +46,6 @@ const project = new AwsCdkConstructLibrary({
     'aws-sdk',
     'cdk-iam-floyd',
   ],
-
-  gitpod: true,
-  docgen: true,
 
   python: {
     distName: 'p6-namer',
