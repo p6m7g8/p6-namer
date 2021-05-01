@@ -66,7 +66,7 @@ const project = new AwsCdkConstructLibrary({
 
 project.gitignore.exclude('.node-version');
 
-project.github.addMergifyRules({
+project.github.mergify.addRule({
   name: 'Label core contributions',
   actions: {
     label: {
@@ -79,7 +79,7 @@ project.github.addMergifyRules({
   ],
 });
 
-project.github.addMergifyRules({
+project.github.mergify.addRule({
   name: 'Label auto-merge for core',
   actions: {
     label: {
@@ -92,7 +92,7 @@ project.github.addMergifyRules({
   ],
 });
 
-project.github.addMergifyRules({
+project.github.mergify.addRule({
   name: 'Label auto-merge snyk-bot',
   actions: {
     merge: {
