@@ -37,8 +37,7 @@
     "*.d.ts",
     "node_modules/",
     "*.generated.ts",
-    "coverage",
-    "!.projenrc.ts"
+    "coverage"
   ],
   "rules": {
     "@typescript-eslint/no-require-imports": [
@@ -126,8 +125,7 @@
       {
         "devDependencies": [
           "**/test/**",
-          "**/build-tools/**",
-          ".projenrc.ts"
+          "**/build-tools/**"
         ],
         "optionalDependencies": false,
         "peerDependencies": true

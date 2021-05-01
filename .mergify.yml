@@ -33,3 +33,29 @@ pull_request_rules:
         commit_message: title+body
         strict: smart
         strict_method: merge
+  - name: Label core contributions
+    actions:
+      label:
+        add:
+          - contribution/core
+    conditions:
+      - author~=^(pgollucci)$
+      - label!=contribution/core
+  - name: Label auto-merge for core
+    actions:
+      label:
+        add:
+          - auto-merge
+    conditions:
+      - label=contribution/core
+      - label!=auto-merge
+  - name: Label auto-merge snyk-bot
+    actions:
+      merge:
+        method: squash
+        commit_message: title+body
+        strict: smart
+        strict_method: merge
+    conditions:
+      - author=snyk-bot
+      - status-success=build

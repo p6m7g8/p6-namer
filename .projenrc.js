@@ -1,13 +1,11 @@
-import { AwsCdkConstructLibrary } from 'projen';
+const { AwsCdkConstructLibrary } = require('projen');
 
 const project = new AwsCdkConstructLibrary({
-  author: 'Philip M. Gollucci',
   authorAddress: 'pgollucci@p6m7g8.com',
+  authorName: 'Philip M. Gollucci',
   cdkVersion: '1.101.0',
-  defaultReleaseBranch: 'main',
   name: 'p6-namer',
-  projenrcTs: true,
-  repositoryUrl: 'https://github.com/pgollucci/p6-namer.git',
+  repository: 'https://github.com/p6m7g8/p6-namer.git',
   description: 'Sets the AWS IAM Account Alias with a Custom Resource',
   keywords: [
     'aws',
@@ -19,8 +17,10 @@ const project = new AwsCdkConstructLibrary({
   ],
 
   minNodeVersion: '14.0.0',
+  defaultReleaseBranch: 'main',
   projenUpgradeSecret: 'PROJEN_GITHUB_TOKEN',
   gitpod: true,
+  devenv: true,
 
   cdkDependencies: [
     '@aws-cdk/core',
@@ -65,5 +65,53 @@ const project = new AwsCdkConstructLibrary({
 });
 
 project.gitignore.exclude('.node-version');
+
+project.github.mergify.addRule({
+  name: 'Label core contributions',
+  actions: {
+    label: {
+      add: ['contribution/core'],
+    },
+  },
+  conditions: [
+    'author~=^(pgollucci)$',
+    'label!=contribution/core',
+  ],
+});
+
+project.github.mergify.addRule({
+  name: 'Label auto-merge for core',
+  actions: {
+    label: {
+      add: ['auto-merge'],
+    },
+  },
+  conditions: [
+    'label=contribution/core',
+    'label!=auto-merge',
+  ],
+});
+
+project.github.mergify.addRule({
+  name: 'Label auto-merge snyk-bot',
+  actions: {
+    merge: {
+      method: 'squash',
+      commit_message: 'title+body',
+      strict: 'smart',
+      strict_method: 'merge',
+    },
+  },
+  conditions: [
+    'author=snyk-bot',
+    'status-success=build',
+  ],
+});
+
+project.gitpod.addTasks({
+  name: 'Setup',
+  init: 'yarn install',
+  command: 'npx projen build',
+});
 
 project.synth();
