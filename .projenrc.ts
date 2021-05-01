@@ -47,7 +47,7 @@ const project = new AwsCdkConstructLibrary({
     'cdk-iam-floyd',
   ],
 
-  python: {
+  publishToPypi: {
     distName: 'p6-namer',
     module: 'p6_namer',
   },
@@ -58,7 +58,7 @@ const project = new AwsCdkConstructLibrary({
     mavenArtifactId: 'p6-namer',
   },
 
-  dotnet: {
+  publishToNuget: {
     dotNetNamespace: 'P6m7g8.P6Namer',
     packageId: 'P6m7g8.P6Namer',
   },
