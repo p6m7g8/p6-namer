@@ -3,7 +3,7 @@
   "description": "Sets the AWS IAM Account Alias with a Custom Resource",
   "repository": {
     "type": "git",
-    "url": "https://github.com/p6m7g8/p6-namer.git"
+    "url": "https://github.com/pgollucci/p6-namer.git"
   },
   "scripts": {
     "clobber": "npx projen clobber",
@@ -16,10 +16,10 @@
     "test:watch": "npx projen test:watch",
     "test:update": "npx projen test:update",
     "projen:upgrade": "npx projen projen:upgrade",
-    "default": "npx projen default",
     "watch": "npx projen watch",
     "package": "npx projen package",
     "eslint": "npx projen eslint",
+    "default": "npx projen default",
     "compat": "npx projen compat",
     "docgen": "npx projen docgen",
     "projen": "npx projen",
@@ -52,6 +52,7 @@
     "projen": "^0.17.73",
     "standard-version": "^9",
     "ts-jest": "^26.1.0",
+    "ts-node": "^9.1.1",
     "typedoc": "^0.20.35",
     "typescript": "^3.9.5"
   },
