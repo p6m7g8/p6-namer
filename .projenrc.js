@@ -1,4 +1,4 @@
-import { AwsCdkConstructLibrary } from 'projen';
+const { AwsCdkConstructLibrary } = require('projen');
 
 const project = new AwsCdkConstructLibrary({
   author: 'Philip M. Gollucci',
